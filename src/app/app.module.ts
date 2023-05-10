@@ -7,6 +7,11 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { PrivadoComponent } from './components/privado/privado.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
+
+import { HttpClientModule } from '@angular/common/http';
+import { RegistroComponent } from './components/registro/registro.component';
+import { LogoutComponent } from './components/logout/logout.component'
 
 @NgModule({
   declarations: [
@@ -14,11 +19,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HomeComponent,
     LoginComponent,
     PrivadoComponent,
-    NavbarComponent
+    NavbarComponent,
+    RegistroComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -16,5 +16,12 @@
             "id": " miguel34",
             "pass": "98765"
         }
+    ],
+    "empleado":[
+        {
+            "id": "12312",
+            "user": "Juan"
+        }
     ]
+
 }
